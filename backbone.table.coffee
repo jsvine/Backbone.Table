@@ -14,7 +14,7 @@ Backbone.Table = Backbone.View.extend
 		</thead>
 		<tbody>
 			<% _.each(rows, function (row, i) { %>
-			<tr class="<%= i % 2 ? 'odd' : 'even' %>">
+			<tr class="<%= i % 2 ? 'even' : 'odd' %>">
 				<% _.each(columns, function (col) { %>
 					<td class="<%= col.className %>"<% if (col.getRaw) { %> value="<%= col.getRaw.call(row) %>"<% } %>><%= col.getFormatted.call(row) %></td>
 				<% }) %>
