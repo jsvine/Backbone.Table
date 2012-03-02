@@ -1,5 +1,5 @@
 compile:
-	coffee -c backbone.table.coffee
+	coffee -cb backbone.table.coffee
 
 minify:
 	uglifyjs backbone.table.js > backbone.table.min.js
