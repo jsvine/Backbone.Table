@@ -5,7 +5,7 @@ Render any Backbone.js Collection as an HTML table. No rocket science here; basi
 
 ## Examples
 
-- __Rudimentary example__, starting from absolute scratch: [http://jsfiddle.net/jsvine/jk57F/](http://jsfiddle.net/jsvine/jk57F/)
+- __Rudimentary example__, stepping through the basics: [http://jsfiddle.net/jsvine/jk57F/](http://jsfiddle.net/jsvine/jk57F/)
 
 - __Slightly fancier example__, having fun with *getFormatted* functions: [http://jsfiddle.net/jsvine/dJcae/](http://jsfiddle.net/jsvine/dJcae/)
 
