@@ -16,10 +16,12 @@ Render any Backbone.js Collection as an HTML table. No rocket science here; basi
 
 *Note: [Click here](http://jsfiddle.net/jsvine/dJcae/) for the interactive code and result.*
 
-1.  Load Backbone.Table anytime after you've loaded Backbone.js
+1. Load Backbone.Table anytime after you've loaded Backbone.js
 
+		```html
 		<script src="js/libs/backbone.js"></script>
 		<script src="js/libs/backbone.table.js"></script>
+		```
 
 2. Go about your normal Backbone routine.
 
