@@ -2,8 +2,8 @@
 
 Render any Backbone.js Collection as an HTML table. No rocket science here; basically just a Backbone.View wrapper around an Underscore.js template. 
 
-* * * * * * * * * 
-### __Examples__
+
+## Examples
 
 - __Rudimentary example__, starting from absolute scratch: [http://jsfiddle.net/jsvine/jk57F/](http://jsfiddle.net/jsvine/jk57F/)
 
@@ -11,8 +11,8 @@ Render any Backbone.js Collection as an HTML table. No rocket science here; basi
 
 - __"Advanced" example__, using *getValue* functions to help with table-sorting: [http://jsfiddle.net/jsvine/P9SwZ/](http://jsfiddle.net/jsvine/P9SwZ/)
 
-* * * * * * * * * * * 
-### __Step-By-Step__
+
+## Step-By-Step
 
 *Note: [Click here](http://jsfiddle.net/jsvine/dJcae/) for the interactive code and result.*
 
@@ -71,8 +71,8 @@ Render any Backbone.js Collection as an HTML table. No rocket science here; basi
 
 		$("body").append(vertebrate_table.render().el);
 
-* * * * * * * * 
-### __Extras__
+
+## Extras
 
 - Each column's optional *getValue* accepts a function, the return value of which sets each cell's *value* attribute. Useful for table-sorting. See [this interactive demo](http://jsfiddle.net/jsvine/P9SwZ/) for an example.
 
