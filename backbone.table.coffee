@@ -10,7 +10,7 @@ Backbone.Table = Backbone.View.extend
 	initialize: () ->
 		@$el = @$el or $(@el)
 	template: _.template """
-		<% var rows = collection.models || collection; %>
+		<% var rows = collection.models;  %>
 		<thead>
 			<tr>
 				<% _.each(columns, function (col) { %>
@@ -25,7 +25,7 @@ Backbone.Table = Backbone.View.extend
 			<tr class="<%= i % 2 ? 'even' : 'odd' %>">
 				<% _.each(columns, function (col) { %>
 					<td class="<%= col.className || '' %>"<% if (col.getValue) { %> value="<%= col.getValue.call(row) %>"<% } %>>
-						<%= (col.getFormatted && col.getFormatted.call(row)) || (row.get && row.get((_.isArray(col) && col[0]) || col)) %>
+						<%= col.getFormatted ? col.getFormatted.call(row) : row.get((_.isArray(col) ? col[0] : col)) %>
 					</td>
 				<% }) %>
 			</tr>
