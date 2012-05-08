@@ -16,6 +16,4 @@ Render any Backbone.js Collection as an HTML table. No rocket science here; basi
 
 - Each column's optional *getValue* accepts a function, the return value of which sets each cell's *value* attribute. Useful for table-sorting. See [this interactive demo](http://jsfiddle.net/jsvine/P9SwZ/) for an example.
 
-- You can use Backbone.Table with plain-old arrays instead of proper Backbone.Collections. See [this interactive demo](http://jsfiddle.net/jsvine/gqsd8/) for an example.
-
 - Looking for dummy data? Try [vertebrates.js](https://gist.github.com/2502565).
